@@ -14,7 +14,7 @@
         <div class="alert alert-success wbdv-message" role="alert">
             Profile successfully saved
           </div>
-        <form>
+        <form action="/my/link/location" method="get">
             <div class="form-group row">  
                 <div class="col-lg-2">
                     <label for="Username">Username</label>
@@ -61,12 +61,12 @@
             </div>  
             <div class="form-group row">
                 <div class="offset-lg-2 col-lg-10">
-                    <button type="submit" class="wbdv-button wbdv-update btn btn-success btn-block">Submit</button>
+                    <button type="submit" formaction="#" class="wbdv-button wbdv-update btn btn-success btn-block">Submit</button>
                 </div>
             </div>
             <div class="form-group row">
                 <div class="offset-lg-2 col-lg-10">
-                    <button type="submit" class="wbdv-button wbdv-logout btn btn-danger btn-block">Logout</button>
+                    <button type="submit" formaction="./courseList.template.client.html" class="wbdv-button wbdv-logout btn btn-danger btn-block">Logout</button>
                 </div>
             </div>
         </form>
