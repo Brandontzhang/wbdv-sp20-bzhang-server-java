@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Course Manager</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./profile.style.client.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Profile</h1>
+        <form>
+            <div class="form-group row">  
+                <div class="col-lg-2">
+                    <label for="Username">Username</label>
+                </div>
+                <div class="col-lg-10">
+                    <input type="text" class="wbdv-field wbdv-username form-control"  placeholder="Alice" disabled>
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-lg-2">
+                    <label>Phone</label>
+                </div>
+                <div class="col-lg-10">
+                    <input type="text" class="wbdv-field wbdv-password form-control" placeholder="(555) 123-4324">
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-lg-2">
+                    <label>Email</label>
+                </div>
+                <div class="col-lg-10">
+                    <input type="email" class="wbdv-field wbdv-password-verify form-control" placeholder="alice@wonderland.com">
+                </div>
+            </div>  
+            <div class="form-group row">
+                <div class="col-lg-2">
+                    <label>Role</label>
+                </div>
+                <div class="col-lg-10">
+                    <select class="form-control">
+                        <option value="Faculty">Faculty</option>
+                        <option value="Student">Student</option>
+                        <option value="Admin">Admin</option>
+                      </select>
+                </div>
+            </div>  
+            <div class="form-group row">
+                <div class="col-lg-2">
+                    <label>Email</label>
+                </div>
+                <div class="col-lg-10">
+                    <input type="date" class="wbdv-field wbdv-password-verify form-control">
+                </div>
+            </div>  
+            <div class="form-group row">
+                <div class="offset-lg-2 col-lg-10">
+                    <button type="submit" class="wbdv-button wbdv-register btn btn-success btn-block">Submit</button>
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="offset-lg-2 col-lg-10">
+                    <button type="submit" class="wbdv-button wbdv-register btn btn-danger btn-block">Logout</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html> 
