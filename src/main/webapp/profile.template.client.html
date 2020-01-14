@@ -11,6 +11,9 @@
 <body>
     <div class="container">
         <h1>Profile</h1>
+        <div class="alert alert-success wbdv-message" role="alert">
+            Profile successfully saved
+          </div>
         <form>
             <div class="form-group row">  
                 <div class="col-lg-2">
@@ -25,7 +28,7 @@
                     <label>Phone</label>
                 </div>
                 <div class="col-lg-10">
-                    <input type="text" class="wbdv-field wbdv-password form-control" placeholder="(555) 123-4324">
+                    <input type="text" class="wbdv-field wbdv-phone form-control" placeholder="(555) 123-4324">
                 </div>
             </div>
             <div class="form-group row">
@@ -33,7 +36,7 @@
                     <label>Email</label>
                 </div>
                 <div class="col-lg-10">
-                    <input type="email" class="wbdv-field wbdv-password-verify form-control" placeholder="alice@wonderland.com">
+                    <input type="email" class="wbdv-field wbdv-email form-control" placeholder="alice@wonderland.com">
                 </div>
             </div>  
             <div class="form-group row">
@@ -41,7 +44,7 @@
                     <label>Role</label>
                 </div>
                 <div class="col-lg-10">
-                    <select class="form-control">
+                    <select class="form-control wbdv-field wbdv-role">
                         <option value="Faculty">Faculty</option>
                         <option value="Student">Student</option>
                         <option value="Admin">Admin</option>
@@ -50,20 +53,20 @@
             </div>  
             <div class="form-group row">
                 <div class="col-lg-2">
-                    <label>Email</label>
+                    <label>Date of Birth</label>
                 </div>
                 <div class="col-lg-10">
-                    <input type="date" class="wbdv-field wbdv-password-verify form-control">
+                    <input type="date" class="wbdv-field wbdv-dob form-control">
                 </div>
             </div>  
             <div class="form-group row">
                 <div class="offset-lg-2 col-lg-10">
-                    <button type="submit" class="wbdv-button wbdv-register btn btn-success btn-block">Submit</button>
+                    <button type="submit" class="wbdv-button wbdv-update btn btn-success btn-block">Submit</button>
                 </div>
             </div>
             <div class="form-group row">
                 <div class="offset-lg-2 col-lg-10">
-                    <button type="submit" class="wbdv-button wbdv-register btn btn-danger btn-block">Logout</button>
+                    <button type="submit" class="wbdv-button wbdv-logout btn btn-danger btn-block">Logout</button>
                 </div>
             </div>
         </form>
