@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Course Manager</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./courseList.style.client.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid row">
+            <div class="col-1 col-md-1">
+                <a href="#"><i class="fa fas fa-bars hamburger"></i></a>
+            </div>
+            <div class="col-md-2 collapse navbar-collapse">
+                <a class="navbar-brand" href="#">Course Manager</a>
+            </div>
+            <div class=" col-9 col-md-7">
+                <input class="form-control newclassbar" type="search" placeholder="New Course Title">
+            </div>
+            <div class="col-2 col-md-2">
+                <button id="submitbtn" class="btn" type="submit"><i class="fa fas fa-plus fa-lg"></i></button>
+            </div>
+        </div>
+    </nav>
+
+    <nav class="d-none d-sm-block navbar navbar-custom">
+        <div class="container-fluid row">
+            <div class="col-2">
+                <p class="coursetitleheader"><strong>Title</strong></p>
+            </div>
+            <div class="offset-5">
+            </div>
+            <div class="col-2">
+                <p class="courseheader"><strong>Owned by <i class="fa fas fa-angle-down"></i></strong></p>
+            </div>
+            <div class="col-2">
+                <p class="coursemodified"><strong><span>Last modified by me</span></strong></p>
+            </div>
+            <div class="col-1">
+                <div class="headericons">
+                    <p class="courseheader"><strong><i class="fa fas fa-th"></i></strong></p>
+                </div>
+                <div class="headericons">
+                    <p class="courseheader"><strong><i class="fa fas fa-sort"></i></strong></p>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- rest of webpage -->
+    <div class="container">
+        <div class="row">
+            <p class="timeheader"><strong>Today</strong></p>
+        </div>
+        <div class="row classrow">
+            <div class="col-md-7 col-10">
+                <i class="fa fas fa-file"></i> <span>CS5500 Software Engineering Graduate</span>
+            </div>
+            <div class="col-md-2 d-none d-sm-block grey">
+                me
+            </div>
+            <div class="col-md-2 d-none d-sm-block timechange">
+                6:45 PM
+            </div>
+            <div class="col-md-1 col-2 grey">
+                <i class="fa fas fa-times"></i>
+            </div>
+        </div>
+        <div class="row classrow">
+            <div class="col-md-7 col-10">
+                <i class="fa fas fa-file"></i> <span>CS5500 Software Engineering Undergraduate</span>
+            </div>
+            <div class="col-md-2 d-none d-sm-block grey">
+                me
+            </div>
+            <div class="col-md-2 d-none d-sm-block timechange">
+                6:45 PM
+            </div>
+            <div class="col-md-1 col-2 grey">
+                <i class="fa fas fa-times"></i>
+            </div>
+        </div>
+        <div class="row classrow">
+            <div class="col-md-7 col-10">
+                <i class="fa fas fa-file"></i> <span>CS5400 WebDev Undergraduate</span>
+            </div>
+            <div class="col-md-2 d-none d-sm-block grey">
+                me
+            </div>
+            <div class="col-md-2 d-none d-sm-block timechange">
+                6:45 PM
+            </div>
+            <div class="col-md-1 col-2">
+                <i class="fa fas fa-times grey"></i>
+            </div>
+        </div>
+        <div class="row classrow">
+            <div class="col-md-7 col-10">
+                <i class="fa fas fa-file"></i> <span>CS5510 WebDev Graduate</span>
+            </div>
+            <div class="col-md-2 d-none d-sm-block grey">
+                me
+            </div>
+            <div class="col-md-2 d-none d-sm-block timechange">
+                6:45 PM
+            </div>
+            <div class="col-md-1 col-2">
+                <i class="fa fas fa-times grey"></i>
+            </div>
+        </div>
+        <div class="row classrow">
+            <div class="col-md-7 col-10">
+                <i class="fa fas fa-file"></i> <span>CS5200 Intro to Databases</span>
+            </div>
+            <div class="col-md-2 d-none d-sm-block grey">
+                me
+            </div>
+            <div class="col-md-2 d-none d-sm-block timechange">
+                6:44 PM
+            </div>
+            <div class="col-md-1 col-2">
+                <i class="fa fas fa-times grey"></i>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <p class="timeheader"><strong>Yesterday</strong></p>
+        </div>
+        <div class="row classrow">
+            <div class="col-md-7 col-10">
+                <i class="fa fas fa-file"></i> <span>WEBDEV 2 - React</span>
+            </div>
+            <div class="col-md-2 d-none d-sm-block grey">
+                me
+            </div>
+            <div class="col-md-2 d-none d-sm-block timechange">
+                May 4, 2018
+            </div>
+            <div class="col-md-1 col-2">
+                <i class="fa fas fa-times grey"></i>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <p class="timeheader"><strong>Previous 7 days</strong></p>
+        </div>
+        <div class="row classrow">
+            <div class="col-md-7 col-10">
+                <i class="fa fas fa-file"></i> <span>WEBDEV Syllabus</span>
+            </div>
+            <div class="col-md-2 d-none d-sm-block grey">
+                me
+            </div>
+            <div class="col-md-2 d-none d-sm-block timechange">
+                May 3, 2018
+            </div>
+            <div class="col-md-1 col-2 grey">
+                <i class="fa fas fa-times"></i>
+            </div>
+        </div>
+        <div class="row classrow">
+            <div class="col-md-7 col-10">
+                <i class="fa fas fa-file"></i> <span>WEBDEV 1 - JavaScript, Java, SQL</span> <i class="fa fas fa-users grey"></i> <i class="fa fab fa-adn grey"></i>
+            </div>
+            <div class="col-md-2 d-none d-sm-block grey">
+                me
+            </div>
+            <div class="col-md-2 d-none d-sm-block timechange">
+                May 3, 2018
+            </div>
+            <div class="col-md-1 col-2 grey">
+                <i class="fa fas fa-times"></i>
+            </div>
+        </div>
+    </div>
+
+    
+
+    <div><button class="sticky"><i class="fa fas fa-plus fa-1x"></i></button></div>
+</body>
+
+</html>

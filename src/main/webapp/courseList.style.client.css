@@ -1,0 +1,109 @@
+i.hamburger {
+    color:white;
+    padding-left:65%;
+}
+
+.fa-plus{
+    color:white;
+    padding: 13px 8px 13px 8px;
+}
+
+#submitbtn{
+    background-color:red;
+    right: 50%%;
+    border-radius: 100%;
+}
+
+.fa-file{
+    color:#007bff;
+    padding-right:3%;
+}
+
+.classrow{
+    background-color:white;
+    padding-top:15px;
+    padding-bottom:15px;
+    padding-left:5px;
+    padding-right:5px;
+    border: 1px solid #a6a6a6;
+}
+
+body{
+    overflow:auto;
+}
+
+button.submitbtn {
+    background-color:red;
+    border-radius: 100%;
+}
+
+button.sticky {
+    position: fixed;
+    bottom: 3%;
+    right: 3%; 
+    background-color:red;
+    border-radius: 100%;
+}
+
+body {
+    background-color: lightgrey;;
+}
+
+.coursetitleheader{
+    text-align:center;
+    text-indent:10%;
+    margin-top:0px;
+    margin-bottom:-2px;
+}
+
+.coursemodified{
+    margin-top:5px;
+    margin-bottom:5px;
+    font-size:75%;
+}
+
+.courseheader{
+    margin-top:5px;
+    margin-bottom:5px;
+}
+
+.navbar-custom {
+    color:#616161;
+    background-color: lightgrey;
+    border: 1px solid darkgrey;
+}
+
+.timeheader{
+    color:#616161;
+    margin-top: 3%;
+    margin-bottom:3px;
+}
+
+.newclassbar{
+    background-color: #4688F4;
+    height: 55px;
+    color: white;
+    border: 1px solid #4688F4;
+}
+
+.newclassbar::placeholder {
+    color:lightgrey;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 120%;
+}
+
+.grey{
+    color:grey;
+}
+
+.timechange{
+    color:grey;
+    padding-left: 4%;
+}
+
+.headericons{
+    float:left;
+    padding-right: 5px;
+    padding-left: 5px;
+}

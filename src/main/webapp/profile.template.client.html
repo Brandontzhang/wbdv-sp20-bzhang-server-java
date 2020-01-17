@@ -20,31 +20,31 @@
                     <label for="Username">Username</label>
                 </div>
                 <div class="col-lg-10">
-                    <input type="text" class="wbdv-field wbdv-username form-control"  placeholder="Alice" disabled>
+                    <input id="Username" type="text" class="wbdv-field wbdv-username form-control"  placeholder="Alice" disabled>
                 </div>
             </div>
             <div class="form-group row">
                 <div class="col-lg-2">
-                    <label>Phone</label>
+                    <label for="phonenum">Phone</label>
                 </div>
                 <div class="col-lg-10">
-                    <input type="text" class="wbdv-field wbdv-phone form-control" placeholder="(555) 123-4324">
+                    <input id="phonenum" type="text" class="wbdv-field wbdv-phone form-control" placeholder="(555) 123-4324">
                 </div>
             </div>
             <div class="form-group row">
                 <div class="col-lg-2">
-                    <label>Email</label>
+                    <label for="email">Email</label>
                 </div>
                 <div class="col-lg-10">
-                    <input type="email" class="wbdv-field wbdv-email form-control" placeholder="alice@wonderland.com">
+                    <input id="email" type="email" class="wbdv-field wbdv-email form-control" placeholder="alice@wonderland.com">
                 </div>
             </div>  
             <div class="form-group row">
                 <div class="col-lg-2">
-                    <label>Role</label>
+                    <label for="role">Role</label>
                 </div>
                 <div class="col-lg-10">
-                    <select class="form-control wbdv-field wbdv-role">
+                    <select id="role" class="form-control wbdv-field wbdv-role">
                         <option value="Faculty">Faculty</option>
                         <option value="Student">Student</option>
                         <option value="Admin">Admin</option>
@@ -53,10 +53,10 @@
             </div>  
             <div class="form-group row">
                 <div class="col-lg-2">
-                    <label>Date of Birth</label>
+                    <label for="DOB">Date of Birth</label>
                 </div>
                 <div class="col-lg-10">
-                    <input type="date" class="wbdv-field wbdv-dob form-control">
+                    <input id="DOB" type="date" class="wbdv-field wbdv-dob form-control">
                 </div>
             </div>  
             <div class="form-group row">
@@ -64,12 +64,14 @@
                     <button type="submit" formaction="#" class="wbdv-button wbdv-update btn btn-success btn-block">Submit</button>
                 </div>
             </div>
-            <div class="form-group row">
-                <div class="offset-lg-2 col-lg-10">
-                    <button type="submit" formaction="./courseList.template.client.html" class="wbdv-button wbdv-logout btn btn-danger btn-block">Logout</button>
-                </div>
-            </div>
         </form>
+        <div class="row">
+            <div class="offset-lg-2 col-lg-10">
+                <form action="./courseList.template.client.html">
+                    <button type="submit" class="wbdv-button wbdv-logout btn btn-danger btn-block">Logout</button>
+                </form>
+            </div>
+        </div>
     </div>
 </body>
 </html> 
