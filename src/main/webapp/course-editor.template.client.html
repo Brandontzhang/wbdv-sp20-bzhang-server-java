@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Course Editor</title>
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- <link href="../css/styles.css" rel="stylesheet"/> -->
+        <link href="./course-editor.style.client.css" rel="stylesheet"/>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-xl navbar-dark bg-dark">
+            <div class="container-fluid row">
+                <div class="col-1 col-md-1">
+                    <a href="#"><i class="fa fas fa-times topx fa-2x"></i></a>
+                </div>
+                <div class="col-10 col-md-2">
+                    <a class="navbar-brand" href="#">CS5610 - WebDev</a>
+                </div>
+                <div class="col-md-8 collapse navbar-collapse">
+                    <ul class="navbar-nav mr-auto">
+                      <li class="nav-item">
+                        <a class="nav-link headerlink" href="#">Build</a>
+                      </li>
+                      <li class="nav-item active">
+                        <a class="nav-link headerlink selected" href="#">Pages</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link headerlink" href="#">Theme</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link headerlink" href="#">Store</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link headerlink" href="#">App</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link headerlink" href="#">Settings</a>
+                      </li>
+                    </ul>
+                  </div>
+                <div class="col-1">
+                    <button id="submitbtn" class="btn" type="submit"><i class="fa fas fa-plus fa-lg"></i></button>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-4 listdiv">
+                    <ul class="list-group">
+                        <li class="list-group-item">Module 1 - JQuery <i class="fa fas fa-times floatright"></i></li>
+                        <li class="list-group-item selected">Module 2 - React <i class="fa fas fa-times floatright"></i></li>
+                        <li class="list-group-item">Module 3 - Redux <i class="fa fas fa-times floatright"></i></li>
+                        <li class="list-group-item">Module 4 - Native <i class="fa fas fa-times floatright"></i></li>
+                        <li class="list-group-item">Module 5 - Angular <i class="fa fas fa-times floatright"></i></li>
+                        <li class="list-group-item">Module 6 - Node <i class="fa fas fa-times floatright"></i></li>
+                        <li class="list-group-item">Module 7 - Mongo <i class="fa fas fa-times floatright"></i></li>
+                    </ul>
+                </div>
+                <div class="col-8">
+                    <ul class="nav nav-pills topiclist">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Topic 1</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Topic 2</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Topic 3</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Topic 4</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="fa fas fa-plus fa-sm"></i></a>
+                        </li>
+                    </ul>
+                    <div class="row">
+                        <div class="offset-md-9 col-md-1 col-6">
+                            <button class="btn btn-success floatright">Save</button> 
+                        </div>
+                        <div class="col-md-2 col-6">
+                            <span>Preview</span>
+                            <div class="custom-control custom-switch floatright">
+                                <input type="checkbox" class="custom-control-input" id="customSwitch1">
+                                <label class="custom-control-label" for="customSwitch1"></label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container-fluid widget" >
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="container">
+                                    <div class="row widgetheader">
+                                        <div class="col-12 col-md-8">
+                                            <h3>Heading Widget</h3>
+                                        </div>
+                                        <div class="col-12 col-md-4">
+                                            <button class="btn btn-warning"><i class="fa fas fa-arrow-up"></i></button>
+                                            <button class="btn btn-warning"><i class="fa fas fa-arrow-down"></i></button>
+                                            <select class="headingselector" name="" id=""></select>
+                                            <button class="btn btn-danger"><i class="fa fas fa-times"></i></button>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <input class="widgetinput" type="text" value="Heading Text">
+                                        </div>
+                                        <div class="col-12">
+                                            <select class="widgetinput" name="Heading 1" id="">
+                                                <option selected="selected">
+                                                    Heading 1
+                                                </option>
+                                            </select>
+                                        </div>
+                                        <div class="col-12">
+                                            <input class="widgetinput" type="text" placeholder="Widget Text">
+                                        </div>
+                                        <div class="col-12">
+                                            <p>Preview</p>
+                                            <h2>Heading 1</h2>
+                                        </div>
+                                    </div> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div><button class="sticky"><i class="fa fas fa-plus fa-1x"></i></button></div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,100 @@
+  
+.topx{
+    color:grey;
+}
+.wbdv-bold {
+    font-weight: bolder;
+}
+.wbdv-module {
+    background-color: lightgray;
+}
+.wbdv-module-list{
+    background-color: black;
+}
+.wbdv-module.wbdv-selected {
+    background-color: darkgray;
+}
+.listdiv{
+    background-color:#141414; 
+    min-height:100vh; 
+    height:100%;
+    padding-top: 3%;
+}
+div.listdiv > ul > li.list-group-item{
+    background-color:#383838;
+    color:white;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    border-radius:2%;
+}
+
+div.listdiv > ul > li.list-group-item.selected{
+    background-color: #4688F4;
+}
+
+.topiclist{
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.topiclist > .nav-item {
+    margin-right:5%;
+    margin-top: 2%;
+}
+
+.topiclist > .nav-item > .nav-link{ 
+    background-color:grey;
+    color:white;
+    font-weight:bold;
+}
+
+.topiclist > .nav-item > .nav-link.active{ 
+    background-color:#141414;
+}
+.floatright{
+    float:right
+}
+
+.widget{
+    border:1px solid lightgrey; 
+    min-height:55%; 
+    margin-top:5%;
+}
+
+.widgetinput{
+    width:100%;
+    height: 40px;
+    margin: 15px 0px 10px 0px;
+}
+
+button.sticky {
+    position: fixed;
+    bottom: 5%;
+    right: 2%; 
+    background-color:red;
+    border-radius: 20%;
+    color:white;
+    padding: 5px 10px 5px 10px;
+}
+
+.widgetheader{
+    margin-top:2%;
+}
+
+.headingselector{
+    width:50%;
+}
+
+#submitbtn{
+    color:white;
+}
+
+.headerlink{
+    margin:0px 20px 0px 20px;
+    padding:0px 15px 0px 15px;
+    font-size:25px;
+}
+
+.headerlink.selected{
+    background-color: #141414;
+}
