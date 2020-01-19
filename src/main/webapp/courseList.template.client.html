@@ -15,16 +15,16 @@
     <nav class="navbar navbar-expand-md navbar-dark bg-primary">
         <div class="container-fluid row">
             <div class="col-1 col-md-1">
-                <a href="#"><i class="fa fas fa-bars hamburger"></i></a>
+                <a href="#" class="wbdv-field wbdv-hamburger"><i class="fa fas fa-bars hamburger"></i></a>
             </div>
             <div class="col-md-2 collapse navbar-collapse">
-                <a class="navbar-brand" href="#">Course Manager</a>
+                <a class="navbar-brand wbdv-label wbdv-course-manager" href="#">Course Manager</a>
             </div>
             <div class=" col-9 col-md-7">
-                <input class="form-control newclassbar" type="search" placeholder="New Course Title">
+                <input class="form-control newclassbar wbdv-field wbdv-new-course" type="search" placeholder="New Course Title">
             </div>
             <div class="col-2 col-md-2">
-                <button id="submitbtn" class="btn" type="submit"><i class="fa fas fa-plus fa-sm"></i></button>
+                <button id="submitbtn" class="btn wbdv-button wbdv-add-course" type="submit"><i class="fa fas fa-plus fa-sm"></i></button>
             </div>
         </div>
     </nav>
@@ -32,22 +32,22 @@
     <nav class="d-none d-sm-block navbar navbar-custom">
         <div class="container-fluid row">
             <div class="col-2">
-                <p class="coursetitleheader"><strong>Title</strong></p>
+                <p class="wbdv-header wbdv-title coursetitleheader">Title</p>
             </div>
             <div class="offset-5">
             </div>
             <div class="col-2">
-                <p class="courseheader"><strong>Owned by <i class="fa fas fa-angle-down"></i></strong></p>
+                <p class="wbdv-header wbdv-owner courseheader">Owned by <i class="fa fas fa-angle-down"></i></p>
             </div>
             <div class="col-2">
-                <p class="coursemodified"><strong><span>Last modified by me</span></strong></p>
+                <p class="wbdv-header wbdv-last-modified coursemodified"><span>Last modified by me</span></p>
             </div>
             <div class="col-1">
                 <div class="headericons">
-                    <p class="courseheader"><strong><i class="fa fas fa-th"></i></strong></p>
+                    <p class="wbdv-header wbdv-grid-layout courseheader"><i class="fa fas fa-th"></i></p>
                 </div>
                 <div class="headericons">
-                    <p class="courseheader"><strong><i class="fa fas fa-sort"></i></strong></p>
+                    <p class="wbdv-header wbdv-list-layout courseheader"><i class="fa fas fa-sort"></i></p>
                 </div>
             </div>
         </div>
@@ -56,130 +56,130 @@
     <!-- rest of webpage -->
     <div class="container">
         <div class="row">
-            <p class="timeheader"><strong>Today</strong></p>
+            <p class="timeheader">Today</p>
         </div>
-        <div class="row classrow">
-            <div class="col-md-7 col-10">
-                <i class="fa fas fa-file"></i> <span>CS5500 Software Engineering Graduate</span>
+        <div class="row classrow wbdv-row wbdv-course">
+            <div class="col-md-7 col-10"> 
+                <i class="fa fas fa-file wbdv-row wbdv-icon"></i> <a href="course-editor.template.client.html">CS5500 Software Engineering Graduate</a>
             </div>
-            <div class="col-md-2 d-none d-sm-block grey">
+            <div class="col-md-2 d-none d-sm-block grey wbdv-row wbdv-owner">
                 me
             </div>
-            <div class="col-md-2 d-none d-sm-block timechange">
+            <div class="col-md-2 d-none d-sm-block timechange wbdv-row wbdv-modified-date">
                 6:45 PM
             </div>
             <div class="col-md-1 col-2 grey">
-                <i class="fa fas fa-times"></i>
+                <i class="fa fas fa-times wbdv-row wbdv-button wbdv-delete"></i>
             </div>
         </div>
-        <div class="row classrow">
+        <div class="row classrow wbdv-row wbdv-course">
             <div class="col-md-7 col-10">
-                <i class="fa fas fa-file"></i> <span>CS5500 Software Engineering Undergraduate</span>
+                <i class="fa fas fa-file wbdv-row wbdv-icon"></i> <a href="course-editor.template.client.html">CS5500 Software Engineering Undergraduate</a>
             </div>
-            <div class="col-md-2 d-none d-sm-block grey">
+            <div class="col-md-2 d-none d-sm-block grey wbdv-row wbdv-owner">
                 me
             </div>
-            <div class="col-md-2 d-none d-sm-block timechange">
+            <div class="col-md-2 d-none d-sm-block timechange wbdv-row wbdv-modified-date">
                 6:45 PM
             </div>
             <div class="col-md-1 col-2 grey">
-                <i class="fa fas fa-times"></i>
+                <i class="fa fas fa-times wbdv-row wbdv-button wbdv-delete"></i>
             </div>
         </div>
-        <div class="row classrow">
+        <div class="row classrow wbdv-row wbdv-course">
             <div class="col-md-7 col-10">
-                <i class="fa fas fa-file"></i> <span>CS5400 WebDev Undergraduate</span>
+                <i class="fa fas fa-file wbdv-row wbdv-icon"></i> <a href="course-editor.template.client.html">CS5400 WebDev Undergraduate</a>
             </div>
-            <div class="col-md-2 d-none d-sm-block grey">
+            <div class="col-md-2 d-none d-sm-block grey wbdv-row wbdv-owner">
                 me
             </div>
-            <div class="col-md-2 d-none d-sm-block timechange">
+            <div class="col-md-2 d-none d-sm-block timechange wbdv-row wbdv-modified-date">
                 6:45 PM
             </div>
             <div class="col-md-1 col-2">
-                <i class="fa fas fa-times grey"></i>
+                <i class="fa fas fa-times grey wbdv-row wbdv-button wbdv-delete"></i>
             </div>
         </div>
-        <div class="row classrow">
+        <div class="row classrow wbdv-row wbdv-course">
             <div class="col-md-7 col-10">
-                <i class="fa fas fa-file"></i> <span>CS5510 WebDev Graduate</span>
+                <i class="fa fas fa-file wbdv-row wbdv-icon"></i> <a href="course-editor.template.client.html">CS5510 WebDev Graduate</a>
             </div>
-            <div class="col-md-2 d-none d-sm-block grey">
+            <div class="col-md-2 d-none d-sm-block grey wbdv-row wbdv-owner">
                 me
             </div>
-            <div class="col-md-2 d-none d-sm-block timechange">
+            <div class="col-md-2 d-none d-sm-block timechange wbdv-row wbdv-modified-date">
                 6:45 PM
             </div>
             <div class="col-md-1 col-2">
-                <i class="fa fas fa-times grey"></i>
+                <i class="fa fas fa-times grey wbdv-row wbdv-button wbdv-delete"></i>
             </div>
         </div>
-        <div class="row classrow">
+        <div class="row classrow wbdv-row wbdv-course">
             <div class="col-md-7 col-10">
-                <i class="fa fas fa-file"></i> <span>CS5200 Intro to Databases</span>
+                <i class="fa fas fa-file wbdv-row wbdv-icon"></i> <a href="course-editor.template.client.html">CS5200 Intro to Databases</a>
             </div>
-            <div class="col-md-2 d-none d-sm-block grey">
+            <div class="col-md-2 d-none d-sm-block grey wbdv-row wbdv-owner">
                 me
             </div>
-            <div class="col-md-2 d-none d-sm-block timechange">
+            <div class="col-md-2 d-none d-sm-block timechange wbdv-row wbdv-modified-date">
                 6:44 PM
             </div>
             <div class="col-md-1 col-2">
-                <i class="fa fas fa-times grey"></i>
+                <i class="fa fas fa-times grey wbdv-row wbdv-button wbdv-delete"></i>
             </div>
         </div>
     </div>
 
     <div class="container">
         <div class="row">
-            <p class="timeheader"><strong>Yesterday</strong></p>
+            <p class="timeheader">Yesterday</p>
         </div>
-        <div class="row classrow">
+        <div class="row classrow wbdv-row wbdv-course">
             <div class="col-md-7 col-10">
-                <i class="fa fas fa-file"></i> <span>WEBDEV 2 - React</span>
+                <i class="fa fas fa-file wbdv-row wbdv-icon"></i> <a href="course-editor.template.client.html">WEBDEV 2 - React</a>
             </div>
-            <div class="col-md-2 d-none d-sm-block grey">
+            <div class="col-md-2 d-none d-sm-block grey wbdv-row wbdv-owner">
                 me
             </div>
-            <div class="col-md-2 d-none d-sm-block timechange">
+            <div class="col-md-2 d-none d-sm-block timechange wbdv-row wbdv-modified-date">
                 May 4, 2018
             </div>
             <div class="col-md-1 col-2">
-                <i class="fa fas fa-times grey"></i>
+                <i class="fa fas fa-times grey wbdv-row wbdv-button wbdv-delete"></i>
             </div>
         </div>
     </div>
 
     <div class="container">
         <div class="row">
-            <p class="timeheader"><strong>Previous 7 days</strong></p>
+            <p class="timeheader">Previous 7 days</p>
         </div>
-        <div class="row classrow">
+        <div class="row classrow wbdv-row wbdv-course">
             <div class="col-md-7 col-10">
-                <i class="fa fas fa-file"></i> <span>WEBDEV Syllabus</span>
+                <i class="fa fas fa-file wbdv-row wbdv-icon"></i> <a href="course-editor.template.client.html">WEBDEV Syllabus</a>
             </div>
-            <div class="col-md-2 d-none d-sm-block grey">
+            <div class="col-md-2 d-none d-sm-block grey wbdv-row wbdv-owner">
                 me
             </div>
-            <div class="col-md-2 d-none d-sm-block timechange">
+            <div class="col-md-2 d-none d-sm-block timechange wbdv-row wbdv-modified-date">
                 May 3, 2018
             </div>
             <div class="col-md-1 col-2 grey">
-                <i class="fa fas fa-times"></i>
+                <i class="fa fas fa-times wbdv-row wbdv-button wbdv-delete"></i>
             </div>
         </div>
-        <div class="row classrow">
+        <div class="row classrow wbdv-row wbdv-course">
             <div class="col-md-7 col-10">
-                <i class="fa fas fa-file"></i> <span>WEBDEV 1 - JavaScript, Java, SQL</span> <i class="fa fas fa-users grey"></i> <i class="fa fab fa-adn grey"></i>
+                <i class="fa fas fa-file wbdv-row wbdv-icon"></i> <a href="course-editor.template.client.html">WEBDEV 1 - JavaScript, Java, SQL</a> <i class="fa fas fa-users grey"></i> <i class="fa fab fa-adn grey"></i>
             </div>
-            <div class="col-md-2 d-none d-sm-block grey">
+            <div class="col-md-2 d-none d-sm-block grey wbdv-row wbdv-owner">
                 me
             </div>
-            <div class="col-md-2 d-none d-sm-block timechange">
+            <div class="col-md-2 d-none d-sm-block timechange wbdv-row wbdv-modified-date">
                 May 3, 2018
             </div>
             <div class="col-md-1 col-2 grey">
-                <i class="fa fas fa-times"></i>
+                <i class="fa fas fa-times wbdv-row wbdv-button wbdv-delete"></i>
             </div>
         </div>
     </div>

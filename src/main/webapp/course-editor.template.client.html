@@ -14,35 +14,35 @@
         <nav class="navbar navbar-expand-xl navbar-dark bg-dark">
             <div class="container-fluid row">
                 <div class="col-1 col-md-1">
-                    <a href="#"><i class="fa fas fa-times topx fa-2x"></i></a>
+                    <a class="wbdv-course-editor wbdv-close" href="#"><i class="fa fas fa-times topx fa-2x"></i></a>
                 </div>
                 <div class="col-10 col-md-2">
-                    <a class="navbar-brand" href="#">CS5610 - WebDev</a>
+                    <a class="navbar-brand wbdv-course-title" href="#">CS5610 - WebDev</a>
                 </div>
                 <div class="col-md-8 collapse navbar-collapse">
                     <ul class="navbar-nav mr-auto">
                       <li class="nav-item">
-                        <a class="nav-link headerlink" href="#">Build</a>
+                        <a class="nav-link headerlink wbdv-page-tab" href="#">Build</a>
                       </li>
                       <li class="nav-item active">
-                        <a class="nav-link headerlink selected" href="#">Pages</a>
+                        <a class="nav-link headerlink selected wbdv-page-tab" href="#">Pages</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link headerlink" href="#">Theme</a>
+                        <a class="nav-link headerlink wbdv-page-tab" href="#">Theme</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link headerlink" href="#">Store</a>
+                        <a class="nav-link headerlink wbdv-page-tab" href="#">Store</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link headerlink" href="#">App</a>
+                        <a class="nav-link headerlink wbdv-page-tab" href="#">App</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link headerlink" href="#">Settings</a>
+                        <a class="nav-link headerlink wbdv-page-tab" href="#">Settings</a>
                       </li>
                     </ul>
                   </div>
                 <div class="col-1">
-                    <button id="submitbtn" class="btn" type="submit"><i class="fa fas fa-plus fa-lg"></i></button>
+                    <button id="submitbtn" class="btn wbdv-new-page-btn" type="submit"><i class="fa fas fa-plus fa-lg"></i></button>
                 </div>
             </div>
         </nav>
@@ -50,31 +50,32 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-4 listdiv">
-                    <ul class="list-group">
-                        <li class="list-group-item">Module 1 - JQuery <i class="fa fas fa-times floatright"></i></li>
-                        <li class="list-group-item selected">Module 2 - React <i class="fa fas fa-times floatright"></i></li>
-                        <li class="list-group-item">Module 3 - Redux <i class="fa fas fa-times floatright"></i></li>
-                        <li class="list-group-item">Module 4 - Native <i class="fa fas fa-times floatright"></i></li>
-                        <li class="list-group-item">Module 5 - Angular <i class="fa fas fa-times floatright"></i></li>
-                        <li class="list-group-item">Module 6 - Node <i class="fa fas fa-times floatright"></i></li>
-                        <li class="list-group-item">Module 7 - Mongo <i class="fa fas fa-times floatright"></i></li>
+                    <ul class="list-group wbdv-module-list">
+                        <li class="list-group-item wbdv-module-item"><span class="wbdv-module-item-title">Module 1 - JQuery</span><i class="fa fas fa-times floatright wbdv-module-item-delete-btn"></i></li>
+                        <li class="list-group-item selected wbdv-module-item"><span class="wbdv-module-item-title">Module 2 - React</span><i class="fa fas fa-times floatright wbdv-module-item-delete-btn"></i></li>
+                        <li class="list-group-item wbdv-module-item"><span class="wbdv-module-item-title">Module 3 - Redux </span><i class="fa fas fa-times floatright wbdv-module-item-delete-btn"></i></li>
+                        <li class="list-group-item wbdv-module-item"><span class="wbdv-module-item-title">Module 4 - Native </span><i class="fa fas fa-times floatright wbdv-module-item-delete-btn"></i></li>
+                        <li class="list-group-item wbdv-module-item"><span class="wbdv-module-item-title">Module 5 - Angular </span><i class="fa fas fa-times floatright wbdv-module-item-delete-btn"></i></li>
+                        <li class="list-group-item wbdv-module-item"><span class="wbdv-module-item-title">Module 6 - Node </span><i class="fa fas fa-times floatright wbdv-module-item-delete-btn"></i></li>
+                        <li class="list-group-item wbdv-module-item"><span class="wbdv-module-item-title">Module 7 - Mongo </span><i class="fa fas fa-times floatright wbdv-module-item-delete-btn"></i></li>
+                        <li id="addbtn" class="list-group-item wbdv-module-item"><i class="fa fas fa-plus floatright wbdv-module-item-add-btn"></i></li>
                     </ul>
                 </div>
                 <div class="col-8">
-                    <ul class="nav nav-pills topiclist">
-                        <li class="nav-item">
+                    <ul class="nav nav-pills topiclist wbdv-topic-pill-list">
+                        <li class="nav-item wbdv-topic-pill">
                             <a class="nav-link" href="#">Topic 1</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item wbdv-topic-pill">
                             <a class="nav-link active" href="#">Topic 2</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item wbdv-topic-pill">
                             <a class="nav-link" href="#">Topic 3</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item wbdv-topic-pill">
                             <a class="nav-link" href="#">Topic 4</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item wbdv-topic-pill">
                             <a class="nav-link" href="#"><i class="fa fas fa-plus fa-sm"></i></a>
                         </li>
                     </ul>
@@ -128,7 +129,7 @@
                             </div>
                         </div>
                     </div>
-                    <div><button class="sticky"><i class="fa fas fa-plus fa-1x"></i></button></div>
+                    <div><button class="sticky wbdv-topic-add-btn"><i class="fa fas fa-plus fa-1x"></i></button></div>
                 </div>
             </div>
         </div>

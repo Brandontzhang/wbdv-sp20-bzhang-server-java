@@ -9,7 +9,7 @@
     background-color: lightgray;
 }
 .wbdv-module-list{
-    background-color: black;
+    background-color: #141414;
 }
 .wbdv-module.wbdv-selected {
     background-color: darkgray;
@@ -97,4 +97,15 @@ button.sticky {
 
 .headerlink.selected{
     background-color: #141414;
+}
+
+div.listdiv > ul > li.list-group-item > .wbdv-module-item-add-btn{
+    float:right;
+    color:white;
+    background-color:#141414;
+    margin:0%;
+}
+
+#addbtn {
+    background-color:#141414;
 }
